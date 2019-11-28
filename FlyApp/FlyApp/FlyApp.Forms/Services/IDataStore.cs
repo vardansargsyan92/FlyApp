@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FlyApp.Forms.Services
+namespace FlyApp.Services
 {
     public interface IDataStore<T>
     {

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FlyApp.Forms.Services;
 using FlyApp.Models;
 
 namespace FlyApp.Services
@@ -20,7 +19,12 @@ namespace FlyApp.Services
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." } ,
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." } ,
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." } ,
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." } ,
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." } ,
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." } 
             };
         }
 

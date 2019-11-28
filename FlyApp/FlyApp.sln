@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.Android", "FlyApp\FlyApp.Android\FlyApp.Android.csproj", "{1CBBD019-5348-41A5-AECE-19E8002D7BDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.Android", "FlyApp.Android\FlyApp.Android.csproj", "{1CBBD019-5348-41A5-AECE-19E8002D7BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.iOS", "FlyApp\FlyApp.iOS\FlyApp.iOS.csproj", "{AC248AB0-1E9C-40BA-B434-42EEAC02B8FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.iOS", "FlyApp.iOS\FlyApp.iOS.csproj", "{AC248AB0-1E9C-40BA-B434-42EEAC02B8FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.Forms", "FlyApp\FlyApp.Forms\FlyApp.Forms.csproj", "{A1105E2C-CC77-4AD6-A772-B1E1A30A44CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyApp.Forms", "FlyApp.Forms\FlyApp.Forms.csproj", "{A1105E2C-CC77-4AD6-A772-B1E1A30A44CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.ViewModels", "FlyApp.ViewModels\FlyApp.ViewModels.csproj", "{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyApp.Core", "FlyApp.Core\FlyApp.Core.csproj", "{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,30 @@ Global
 		{A1105E2C-CC77-4AD6-A772-B1E1A30A44CD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{A1105E2C-CC77-4AD6-A772-B1E1A30A44CD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A1105E2C-CC77-4AD6-A772-B1E1A30A44CD}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Release|iPhone.Build.0 = Release|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BEEE5B1C-491A-4253-BEFA-D5F8D8404ABC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Release|iPhone.Build.0 = Release|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{FEAE6B8F-DBCB-4886-B72D-40F3FB101E1F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

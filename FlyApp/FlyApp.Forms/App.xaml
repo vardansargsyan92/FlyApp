@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<unity:PrismApplication
+    x:Class="FlyApp.Forms.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:unity="http://prismlibrary.com">
+    <unity:PrismApplication.Resources>
+        <ResourceDictionary>
+            <Color x:Key="AppColorOrange">#de3f18</Color>
+            <Color x:Key="AppColorGray">#b8b8b8</Color>
+            <Color x:Key="TransparentBackground">Transparent</Color>
+            <Color x:Key="CalendarAppointment">#99ff99</Color>
+            <Color x:Key="CalendarAppointmentCompleted">#2eb82e</Color>
+        </ResourceDictionary>
+    </unity:PrismApplication.Resources>
+</unity:PrismApplication>

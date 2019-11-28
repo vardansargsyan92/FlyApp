@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <Shell
     x:Class="FlyApp.Forms.AppShell"
     xmlns="http://xamarin.com/schemas/2014/forms"
@@ -34,8 +35,15 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+
+    <ShellItem Route="itemsPage">
+        <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
+        
+    </ShellItem>
+
+
     <!--  Your Pages  -->
-    <TabBar>
+    <!--<TabBar>
         <Tab
             Title="Browse"
             Icon="tab_feed.png">
@@ -46,7 +54,7 @@
             Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
-    </TabBar>
+    </TabBar>-->
 
     <!-- Optional Templates
     // These may be provided inline as below or as separate classes.

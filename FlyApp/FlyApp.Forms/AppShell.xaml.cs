@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using FlyApp.Forms.Views;
+using Xamarin.Forms;
 
 namespace FlyApp.Forms
 {
@@ -7,6 +8,7 @@ namespace FlyApp.Forms
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute("ItemsPage", typeof(ItemsPage));
         }
     }
 }

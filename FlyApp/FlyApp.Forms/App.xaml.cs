@@ -1,4 +1,5 @@
 ﻿using FlyApp.Core;
+using FlyApp.Core.Utils;
 using FlyApp.Forms.Services;
 using FlyApp.ViewModels;
 using Prism;
@@ -21,6 +22,10 @@ namespace FlyApp.Forms
             container
                 .RegisterCoreDependencies()
                 .RegisterViewModelsDependencies();
+
+#if DEBUG
+            container.CheckForCycles();
+#endif
         }
 
         protected override void OnInitialized()

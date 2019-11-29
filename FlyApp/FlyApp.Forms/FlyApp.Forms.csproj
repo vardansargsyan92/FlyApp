@@ -7,7 +7,6 @@
     <RootNamespace>FlyApp.Forms</RootNamespace>
     <LangVersion>latest</LangVersion>
     <AssetTargetFallback>$(AssetTargetFallback);portable-win+net45+wp8+win81+wpa8;</AssetTargetFallback>
-    <RootNamespace>QQPad.Mobile.Forms</RootNamespace>
     <Copyright>
     </Copyright>
     <Company />
